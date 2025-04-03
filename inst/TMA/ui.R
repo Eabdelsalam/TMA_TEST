@@ -225,9 +225,9 @@ ui <- dashboardPage(
                     solidHeader = T, width = 12, status = "danger",
                     h3("TranscriptMetaAnalyst: Datailed User Manual"),
                     span("A detailed user manual could be downloaded via this"), ##### ADD LINK OF PDF FILE
-                    tags$a(href = "TMA_Manual.pdf",
+                    tags$a(href = "https://drive.google.com/file/d/1Ro-DhYj4ctxnVgNov2ZchJbeZYx_cUR_/view?usp=sharing",
                            "file",
-                           target = "_blank",),
+                           target = "_blank"),
                     hr(),
                     h3("Contact us"),
                     span("For inquiries and/or feedback, please contact me via"),
