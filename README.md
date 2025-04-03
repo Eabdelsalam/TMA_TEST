@@ -31,4 +31,7 @@ The app could be installed locally via [GitHub](https://github.com/Eabdelsalam/T
 3. Finally, run the app
 
 
+`library(TranscriptMetaAnalyst)`
+
+
 `runTMA()`
