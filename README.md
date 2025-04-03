@@ -10,17 +10,25 @@ The app could be installed locally via [GitHub](https://github.com/Eabdelsalam/T
 
 
 1. Check if devtools and BiocManager are installed, and install them if not
+
+
 `if (!requireNamespace("devtools", quietly = TRUE)) {
   install.packages("devtools")
 }`
+
+
 `if (!requireNamespace("BiocManager", quietly = TRUE)) {
   install.packages("BiocManager")
 }`
 
 
 2. Use `devtools` to install the ShinyApp
+
+
 `devtools::install_github("Eabdelsalam/TranscriptMetaAnalyst")`
 
 
 3. Finally, run the app
+
+
 `shiny::shinyAppDir(system.file(package = "TranscriptMetaAnalyst"))`
