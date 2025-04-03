@@ -31,4 +31,4 @@ The app could be installed locally via [GitHub](https://github.com/Eabdelsalam/T
 3. Finally, run the app
 
 
-`shiny::shinyAppDir(system.file(package = "TranscriptMetaAnalyst"))`
+`runTMA()`
