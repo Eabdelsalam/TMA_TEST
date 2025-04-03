@@ -2,27 +2,27 @@
 # source(system.file("R", "helper_functions.R", package = "TranscriptMetaAnalyst"))
 # source(system.file("R", "test_files.R", package = "TranscriptMetaAnalyst"))
 
-#DEBUG
-helper_file_path <- system.file("R", "helper_functions.R", package = "TranscriptMetaAnalyst")
-print(paste("Checking for file at:", helper_file_path)) # Add this line!
-
-if (file.exists(helper_file_path)) {
-  source(helper_file_path)
-  print("helper_functions.R sourced successfully") # Add this line!
-} else {
-  stop("Error: helper_functions.R not found in package TranscriptMetaAnalyst")
-}
-
-#DEBUG
-test_file_path <- system.file("R", "test_files.R", package = "TranscriptMetaAnalyst")
-print(paste("Checking for file at:", test_file_path)) # Add this line!
-
-if (file.exists(test_file_path)) {
-  source(test_file_path)
-  print("test_files.R sourced successfully") # Add this line!
-} else {
-  stop("Error: test_files.R not found in package TranscriptMetaAnalyst")
-}
+# #DEBUG
+# helper_file_path <- system.file("R", "helper_functions.R", package = "TranscriptMetaAnalyst")
+# print(paste("Checking for file at:", helper_file_path)) # Add this line!
+# 
+# if (file.exists(helper_file_path)) {
+#   source(helper_file_path)
+#   print("helper_functions.R sourced successfully") # Add this line!
+# } else {
+#   stop("Error: helper_functions.R not found in package TranscriptMetaAnalyst")
+# }
+# 
+# #DEBUG
+# test_file_path <- system.file("R", "test_files.R", package = "TranscriptMetaAnalyst")
+# print(paste("Checking for file at:", test_file_path)) # Add this line!
+# 
+# if (file.exists(test_file_path)) {
+#   source(test_file_path)
+#   print("test_files.R sourced successfully") # Add this line!
+# } else {
+#   stop("Error: test_files.R not found in package TranscriptMetaAnalyst")
+# }
 
 # Define server logic required to draw a histogram
 function(input, output, session) {
