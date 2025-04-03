@@ -1,7 +1,7 @@
 runTMA <- function() {
-  appDir <- system.file("myapp", package = "TranscriptMetaAnalyst")
+  appDir <- system.file("TMA", package = "TranscriptMetaAnalyst")
   if (appDir == "") {
-    stop("Could not find myapp. Try re-installing `TranscriptMetaAnalyst`.", call. = FALSE)
+    stop("Could not find TMA Try re-installing `TranscriptMetaAnalyst`.", call. = FALSE)
   }
   
   shiny::runApp(appDir, display.mode = "normal")
